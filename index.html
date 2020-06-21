@@ -1,20 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>SimpAI</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpBot - The Best Simp Detecting AI</title>
+	  <!-- CSS/Fonts -->
+	<link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3ac6d2b1b9.js" crossorigin="anonymous"></script>
+	  
+	  <script src="js/main.js"></script>
+	  
   </head>
   <body>
-    <script src="js/script.js"></script>
-    <h1 id="intro-main" class="lato-font">Simping is at all time highs in our society</h1>
-    <h2 id="intro-second" class="playfair-font">So we built a powerful AI to shut it down, before it's too late</h2>
-    <p id="coming-soon" class="paytone-font">SimpAI bot coming very soon to a Discord server near you!</p>
-    <img class="simp-img" src="images/simp.svg" alt="a big simp">
-	   <!-- jQuery is a whooore--> 
+       <nav class="navbar navbar-background navbar-expand-lg navbar-dark">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+             
+			  <li class="nav-item">
+                <p class="nav-link h4">SimpBot</p>
+             </li>
+             
+          </ul>
+       </div>
+    </nav>
+
+
+    <div class="intro-jumbo jumbotron jumbotron-fluid text-center">
+       <div class="intro-text">
+		<h1 class="display-4 simp">Simping is at all time highs in our society...</h1>
+		   <h2 class="display-4 build">So we built a powerful AI<br><span class="font-weight-bold">to stop it</span></h2>
+		<p class="late">Introducing SimpBot, the only Discord bot that uses Artificial Intelligence to protect your server from simping.</p>
+	  </div>
+       <p class="lead">
+          <a class="btn btn-lg btn-outline-primary" href="#more-info" role="button">F*ck Yeah!</a>
+       </p>
+		<div class="intro-img-container">
+		  <img id="food-truck-svg" class="intro-img" src="images/simp-flower.svg" alt="A man simping">
+		</div>
+		<a href="#more-info">
+	  <i class="fas fa-chevron-down" onclick="clickHide('Down');" id="Down" aria-hidden="true"></i>
+		</a>
+    </div>
+    <div class="container">
+       <div class="row descriptions" id="more-info">
+          <div class="col-md-4 desc-text col-xl-6">
+			  <h3 class="blurb-header lato-font">Simping is a <br><i>global pandemic...</i></h3> 
+			  <p class="blurb-desc playfair-font">And as a girl in this day and age, I'm fucking fed up with it, so I trained an AI to knock some sense into the simps of the world.</p>
+		   <p class="lead">
+          <a class="btn btn-lg btn-outline-primary" href="/invite/" role="button">Add Bot</a>
+       </p></div>
+		  <div class="col-md-6 offset-xl-0 col-xl-6"><img class="desc-img" src="images/love.svg" alt='"Love" is in the air'></div>
+       </div>
+       <br>
+       <hr class="my-4 coloured">
+       <br>
+		<div class="row descriptions">
+		  <div class="col-md-6"><img class="desc-img-caring" src="images/data.svg" alt="Data on a screen"></div>
+          <div class="col-md-4 desc-text second-desc offset-xl-0 col-xl-6">
+			  <h3 class="blurb-header lato-font">Data wise, this thing is <i>packing...</i></h3> 
+			  <p class="blurb-desc playfair-font">With over 500 lines of training data (and growing!) this bot is very good at detecting even the slightest amount of simpishness. During our beta testing phase, the bot correctly identified over 600 instances of simping. You heard that right, 600 hits while 
+			  <em>just in beta.</em></p></div>
+       </div>
+      	<div class="text-center finale">
+		  <h4 class="blurb-header">Knock some sense into simps</h4>
+			<hr class="mini coloured">
+		  <p class="blurb-desc playfair-font">This bot is, and always will be, <em>completely free</em></p>
+		  <h4 class="blurb-header h3 paytone-font">So you can keep your server safe 24/7</h4>
+			<p class="blurb-desc">If you wanna support us, we'd really appreciate it! <br> <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Us A Coffee!', '#4f94e3', 'X8X31UAIH');kofiwidget2.draw();</script></p>
+		  <img class="footer-img" src="images/fun-free.svg" alt="We love you guys! Enjoy!">
+		</div>
+       <br/>
+       <br/><!--
+		<h2 class="display-3 text-center playfair-font" style="margin-bottom: 1em;">Meet the team</h2>
+		<div class="row justify-content-center">
+      <div class="col-md-2">
+        
+        <h2>Maddie</h2>
+        <p>Big bitch, fed up with simps. Project lead.</p>
+       
+      </div>
+      <div class="col-md-2">
+        
+        <h2>Cype</h2>
+        <p>Helped a tonne with collecting and organizing training data. Don't worry, they've tested negative for simpititis!</p>
+        
+      </div>
+      <!--<div class="col-md-2">
+        
+        <h2>Future Contributor</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+       
+      </div>
+	  <div class="col-md-2">
+        
+        <h2>Future Contributor</h2>
+        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, ut fermentum massa.</p>
+       
+      </div> 
+    </div>-->
+		
+       <br>
+       <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+            
+             <p>Copyright &copy; 2020 MaddieX | All Rights Reserved</p>
+			  <p>Reality Check: Belle Delphine is back WTF</p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery for dynamic feature --> 
     <script src="js/jquery-3.4.1.min.js"></script>
+
     <!-- other js plugins and stuff --> 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
